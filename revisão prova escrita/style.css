@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grupo{
+    display: flex;
+}
+
+.cabecalho{
+    background-color: green;
+}
+
+.navegacao{
+    background-color: lime;
+}
+
+.secao{
+    background-color: yellowgreen;
+}
+
+.rodape{
+    background-color: yellow;
+}
