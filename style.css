@@ -31,9 +31,20 @@
     width: 30%;
     padding: 10px;
 }
+
+.navegacao ul{
+    list-style: none;
+    padding: 0;
+}
+.navegacao li{
+    margin-bottom: 10px;
+}
+
 .secao{
     background-color: #d16b0c;
-    
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
 }
 .rodape{
     background-color: #7fff00;
