@@ -5,20 +5,36 @@
 
 .grupo{
     display: flex;
+    flex-direction: column;
 }
 
 .cabecalho{
-    background-color: green;
+    background-color: #0de2e2;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.menu a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.menu a:hover{
+    color: red;
+}
 .navegacao{
-    background-color: lime;
+    background-color: #d81313;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
 }
-
 .secao{
-    background-color: yellowgreen;
+    background-color: #d16b0c;
+    
 }
-
 .rodape{
-    background-color: yellow;
+    background-color: #7fff00;
 }
