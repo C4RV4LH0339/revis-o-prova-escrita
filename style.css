@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-.grupo{
+.grupo {
     display: flex;
     flex-direction: column;
 }
 
-.cabecalho{
-    background-color: #0de2e2;
+.cabecalho {
+    background-color: #12ddaa;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -17,35 +17,77 @@
     align-items: center;
 }
 
-.menu a{
-    color: blue;
+.menu a {
+    color: #fff;
     text-decoration: none;
     margin-left: 15px;
 }
-.menu a:hover{
+
+.menu a:hover {
     color: red;
 }
-.navegacao{
-    background-color: #d81313;
+
+.conteudo {
+    display: flex;
+    
+}
+
+.navegacao {
+    background-color: #ad5566;
     display: inline-block;
     width: 30%;
     padding: 10px;
 }
 
-.navegacao ul{
+.navegacao ul {
     list-style: none;
     padding: 0;
 }
-.navegacao li{
+
+.navegacao li {
     margin-bottom: 10px;
 }
 
-.secao{
-    background-color: #d16b0c;
+.secao {
+    background-color: #32a97c;
     display: inline-block;
     width: 70%;
     padding: 10px;
 }
-.rodape{
-    background-color: #7fff00;
+
+.rodape {
+    background-color: #00ddff;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+
+.redes img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.redes a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #fff;
+    opacity: 0.7;
+}
+.formulario {
+    margin-bottom: 10px;
+}
+.secao p {
+    margin-bottom: 10px;
 }
