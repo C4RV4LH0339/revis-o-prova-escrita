@@ -7,17 +7,17 @@ function alterarNome() {
     }
 }
 function alterarCurso() {
-    let trocarCurso = document.getElementById("inputNome").value; 
+    let trocarCurso = document.getElementById("inputCurso").value; 
     if (trocarCurso === "") {
-        alert("Digite um nome")
+        alert("Digite um Curso")
     } else {
         document.getElementById("nomeUsuario").innerHTML = trocarCurso;
     }
 }
 function alterarStatus() {
-    let trocarStatus = document.getElementById("inputNome").value; 
+    let trocarStatus = document.getElementById("inputStatus").value; 
     if (trocarStatus === "") {
-        alert("Digite um nome")
+        alert("Digite um Status")
     } else {
         document.getElementById("nomeUsuario").innerHTML = trocarStatus;
     }
