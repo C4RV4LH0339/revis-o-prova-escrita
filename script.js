@@ -11,7 +11,7 @@ function alterarCurso() {
     if (trocarCurso === "") {
         alert("Digite um Curso")
     } else {
-        document.getElementById("nomeUsuario").innerHTML = trocarCurso;
+        document.getElementById("nomeCurso").innerHTML = trocarCurso;
     }
 }
 function alterarStatus() {
@@ -19,6 +19,6 @@ function alterarStatus() {
     if (trocarStatus === "") {
         alert("Digite um Status")
     } else {
-        document.getElementById("nomeUsuario").innerHTML = trocarStatus;
+        document.getElementById("nomeStatus").innerHTML = trocarStatus;
     }
 }
